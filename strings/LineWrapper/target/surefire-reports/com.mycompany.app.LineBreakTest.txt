@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.LineBreakTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+testFullJustify(com.mycompany.app.LineBreakTest)  Time elapsed: 0.011 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...  the  earth.   Now  the  earth  was
+formless  and empty,  darkness was  over
+the  surface of the deep, and the Spirit
+of  God was  hovering over  the  waters.
+And  God said, "Let there be light," and
+there  was light. God saw that the light
+was  good, and  he separated  the  light
+from  the darkness. God called the light
+"day,"   and  the   darkness  he  called
+"night."  And  there  was  evening,  and
+there  was  morning  -  the  first ...> but was:<...the earth. Now the earth was
+formless and empty, darkness was over
+the surface of the deep, and the Spirit
+of God was hovering over the waters.
+And God said, "Let there be light," and
+there was light. God saw that the light
+was good, and he separated the light
+from the darkness. God called the light
+"day," and the darkness he called
+"night." And there was evening, and
+there was morning - the first...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.mycompany.app.LineBreakTest.testFullJustify(LineBreakTest.java:46)
+
